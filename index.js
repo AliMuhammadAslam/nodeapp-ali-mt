@@ -6,7 +6,7 @@ app.use(express.static(__dirname + '/public'));
 
 // Route to handle the default page
 app.get('/', function(request, response) {
-  response.send('Hello Galaxy this from test branch!');
+  response.send('Hello everyone this from test branch!');
 });
 
 // Listen on all interfaces (0.0.0.0), not just localhost
